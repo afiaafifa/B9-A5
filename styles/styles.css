@@ -9,3 +9,50 @@
 .font-inter{
     font-family: "Inter", sans-serif;
 }
+
+
+/* seats  */
+
+.bus {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .row {
+    display: flex;
+    /* justify-content: center; */
+    margin-bottom: 10px;
+  }
+  
+  .seat {
+    width: 80px;
+    height: 40px;
+    margin: 5px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ccc;
+  }
+  
+  .occupied {
+    background-color: #ff0000; /* Red color for occupied seats */
+  }
+  
+
+  /* Add your CSS styles here */
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+
+  th, td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+
+  th {
+    background-color: #f2f2f2;
+  }
+  
