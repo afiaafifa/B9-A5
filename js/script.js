@@ -16,6 +16,7 @@ const successSection = document.getElementById('success');
 // Function to switch from buy-now section to bus section
 function buy() {
     buyNowSection.classList.add('hidden');
+    
     busSection.classList.remove('hidden');
 }
 
